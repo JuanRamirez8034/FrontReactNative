@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "FreelanceHelper",
+    "slug": "front-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Actividad-Icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/inicioScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#67b9f5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Actividad-Icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.juanramirez.frontApp"
+    },
+    "web": {
+      "favicon": "./assets/Actividad-Icon.png"
+    }
+  }
+}
